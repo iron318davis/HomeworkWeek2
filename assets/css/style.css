@@ -28,19 +28,9 @@ header {
 }
 
 h1 {
-    margin: 0px;
-    padding: 0px;
+    color: #59aaa5;
+    font-weight: bolder;
 }
-
-p {
-    margin-top: 0px;
-    background-color: white;
-    border-top: 1px solid rgba(0, 0, 0, 0.1)
-}
-
-
-
-
 
 
 .container{
@@ -53,15 +43,26 @@ p {
     height: auto;
 }
 
-/* Add padding BETWEEN each column (if you want) */
-.row,
-.row > .column {
-  padding: 8px;
+.pictures {
+    padding: 20px;
 }
 
 .column {
     float: left;
     width: 25%;
+  }
+
+
+  /* Footer */
+  .footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: rgb(95, 95, 95);
+    text-align: center;
+    
   }
 
 
@@ -78,3 +79,5 @@ p {
       width: 100%;
     }
   }
+
+
